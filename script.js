@@ -1,19 +1,19 @@
-const gifs = [
+function redirectToGif() {
 
-    'gif1.html',
+    const gifs = [
 
-    'gif2.html',
+        'neru_sassy.gif',
 
-    'gif3.html'
+        'momo_support.gif',
 
-];
+        'teto_bread.gif'
 
+    ];
 
+    const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
 
-function getRandomGif() {
+    alert('Redirecting to a fun GIF!');
 
-    const randomIndex = Math.floor(Math.random() * gifs.length);
-
-    window.location.href = gifs[randomIndex];
+    window.location.href = randomGif;
 
 }
