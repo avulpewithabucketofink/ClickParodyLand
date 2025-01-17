@@ -2,7 +2,7 @@ body {
 
     font-family: Arial, sans-serif;
 
-    background-color: #e0ffe0;
+    background-color: #f0f8e0;
 
     color: #333;
 
@@ -10,77 +10,77 @@ body {
 
     padding: 0;
 
+    text-align: center;
+
 }
 
 
 
-.header {
+header {
 
-    text-align: center;
-
-    padding: 20px;
-
-    background-color: #4CAF50;
+    background-color: #4caf50;
 
     color: white;
 
-}
-
-
-
-.fake-ads {
-
-    margin: 20px;
-
-    text-align: center;
+    padding: 1em 0;
 
 }
 
 
 
-.fake-ads a {
+main {
 
-    display: block;
+    margin: 20px auto;
 
-    margin: 10px 0;
+    width: 90%;
 
-    font-size: 18px;
+    max-width: 800px;
 
-    color: red;
+    background: white;
 
-    text-decoration: none;
+    padding: 20px;
 
-}
+    border-radius: 10px;
 
-
-
-.fake-ads a:hover {
-
-    color: #ff6666;
-
-    text-decoration: underline;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 
 
 
-.links {
+h1, h2 {
 
-    text-align: center;
-
-    margin-top: 20px;
+    color: #4caf50;
 
 }
 
 
 
-.links a {
+nav ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+
+
+nav ul li {
+
+    display: inline-block;
 
     margin: 0 10px;
 
+}
+
+
+
+nav ul li a {
+
     text-decoration: none;
 
-    color: #4CAF50;
+    color: #4caf50;
 
     font-weight: bold;
 
@@ -90,13 +90,11 @@ body {
 
 footer {
 
-    text-align: center;
+    margin-top: 20px;
 
-    margin-top: 40px;
+    padding: 10px 0;
 
-    padding: 10px;
-
-    background-color: #4CAF50;
+    background-color: #4caf50;
 
     color: white;
 
